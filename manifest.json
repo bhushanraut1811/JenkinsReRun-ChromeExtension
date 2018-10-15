@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Jenkins Rerun Build",
+  "description": "Rerun a build with a click",
+  "version": "1.0",
+  "minimum_chrome_version": "35",
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "tabs",
+    "<all_urls>",
+    "http://172.18.8.108:8080/"
+  ],
+  "icons": {
+    "16": "images/copy_icon.png"
+  },
+  "background": {
+    "page": "background.html"
+  }
+}
